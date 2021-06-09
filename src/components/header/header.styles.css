@@ -1,0 +1,86 @@
+.nav-bar {
+  height: 90px;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+.header {
+  color: #333;
+  border-radius: 15px;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  background-color: #fff;
+  opacity: 0.9;
+  transition: 1s ease-in-out;
+}
+.header:hover {
+  opacity: 1;
+}
+.head {
+  display: flex;
+}
+.logo-container {
+  height: 100%;
+  width: 70px;
+  margin: 20px 0px 20px 20px;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+}
+.title {
+  margin: 10px 0 0 0;
+  font-size: 35px;
+}
+b {
+  font-size: 50px !important;
+}
+
+.options {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.option {
+  padding: 10px 10px;
+  margin: 0 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.option:hover {
+  background-color: #222;
+  color: #fff !important;
+  border: 1px solid #333;
+  border-radius: 15px;
+}
+.highlighted {
+  background-color: #222;
+  color: #fff !important;
+  border: 1px solid #333;
+  border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    height: 150px !important;
+  }
+  .header {
+    flex-direction: column;
+    height: 150px !important;
+  }
+  .head {
+    margin: auto;
+  }
+  .options {
+    margin: auto !important;
+  }
+  .option {
+    margin: 0;
+  }
+}
